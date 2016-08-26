@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const path = require('path')
 const favicon = require('serve-favicon')
+const port = 8080
 
 app.use(favicon(__dirname + '/public/favicon.ico'))
 
@@ -15,4 +16,5 @@ app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname + '/public/index.html'))
 })
 
-app.listen(8080)
+app.listen(port)
+console.log(`Now listening on ${port}`)
