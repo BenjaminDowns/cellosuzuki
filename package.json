@@ -1,0 +1,29 @@
+{
+  "name": "cellosuzuki",
+  "version": "1.0.0",
+  "description": "The professional teaching website of Rebeccah Parker Downs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminDowns/cellosuzuki.git"
+  },
+  "keywords": [
+    "cello",
+    "suzuki",
+    "Rebeccah",
+    "Parker",
+    "Downs"
+  ],
+  "author": "Benjamin Downs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjaminDowns/cellosuzuki/issues"
+  },
+  "homepage": "https://github.com/BenjaminDowns/cellosuzuki#readme",
+  "dependencies": {
+    "serve-favicon": "^2.3.0"
+  }
+}
