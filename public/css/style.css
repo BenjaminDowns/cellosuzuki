@@ -37,6 +37,10 @@ p {
   margin-bottom: 30px;
 }
 
+b {
+  font-weight: bold !important;
+}
+
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
